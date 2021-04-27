@@ -27,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://instructiondesigns.org/profile-card-component/](hhttps://instructiondesigns.org/profile-card-component/)
-- Live Site URL: [https://instructiondesigns.org/profile-card-component/](hhttps://instructiondesigns.org/profile-card-component/)
+- Solution URL: [https://instructiondesigns.org/profile-card-component/](https://instructiondesigns.org/profile-card-component/)
+- Live Site URL: [https://instructiondesigns.org/profile-card-component/](https://instructiondesigns.org/profile-card-component/)
 
 ## My process
 
