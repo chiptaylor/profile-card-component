@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* font-family: 'Kumbh Sans', sans-serif; */
+
+:root {
+  --color-dark-cyan: hsl(185, 75%, 39%);
+  --color-dark-blue: hsl(229, 23%, 23%);
+  --color-gray-blue: hsl(227, 10%, 46%);
+  --color-dark-gray: hsl(0, 0%, 59%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--color-dark-cyan);
+  background-image: url('images/bg-pattern-top.svg'),
+    url('images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: -95vw -70vw, 40vw 135vw;
+  background-size: 150%;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+  color: var(--color-dark-blue);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 100vh;
+  max-width: 420px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 483px;
+  min-width: 100%;
+  background-color: #fff;
+  line-height: 2;
+  background-image: url('images/bg-pattern-card.svg');
+  background-size: 130%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.card__image {
+  width: 40%;
+  border-radius: 100px;
+  border: 6px solid #fff;
+}
+
+.card__title {
+  font-size: 1.125rem;
+  padding-top: 1.4rem;
+}
+
+.card__age {
+  margin-left: 0.4em;
+}
+
+.card__locale {
+  padding-bottom: 1.6rem;
+}
+
+.card__text--bold {
+  font-weight: bold;
+}
+
+.card__text--light {
+  color: var(--color-gray-blue);
+}
+
+.card__stats {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid var(--color-dark-gray);
+  padding-top: 1.6rem;
+  margin-bottom: 1.9rem;
+}
+
+.card__stat {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__stats__metric {
+  font-size: 1.125rem;
+}
+
+.card__stat__label {
+  letter-spacing: 0.1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 775px) {
+  body {
+    background-position: -95vw -70vw, 40vw 35vw;
+    background-size: 140%;
+  }
+
+  .card {
+    min-height: 525px;
+    background-size: 120%;
+  }
+}
